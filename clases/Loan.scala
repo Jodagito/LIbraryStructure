@@ -5,6 +5,21 @@ class Loan {
     val endDate = new Date();
     val note = String;
     val bookId = new Book();
+    def getborrowerId(): borrowerId ={
+        return this.borrowerId;
+    }
+    def getStarDate(): Date ={
+        return this.starDate;
+    }
+    def getEndDate(): Date ={
+        return this.endDate;
+    }
+    def getNote(): String = {
+        return this.note;
+    }
+    def getBookId(): String {
+        return this.bookId;
+    }
     def borrow = (Book, Borrower) {
         val starDate = getDate();
         val endDate = stardate + 8;
